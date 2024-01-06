@@ -1,0 +1,33 @@
+Mithun Technologies
++91-9980923226
+Git and GitHub
+info@mithuntechnologies.com
+Author Mithun Reddy L
+Web site http://mithuntechnologies.com
+© 2019 all rights Reserved by Mithun Technologies devopstrainingblr@gmail.com 6
+---------------------------------------------------------------------------------------------------------------------
+git stash: git stash temporarily shelves (or stashes) changes you've made to your working copy
+so you can work on something else, and then come back and re-apply them later on. Stashing is
+handy if you need to quickly switch context and work on something else, but you're mid-way
+through a code change and aren't quite ready to commit.
+git stash (OR) git stash save "Updated some code" :
+git stash list :
+git stash show : This command shows the summary of the stash diffs.
+The above command considers only the latest stash.
+git stash show -p : It will give you the detailed list of differences.
+git stash show stash@{1}:
+git stash apply stash@{0}:
+git stash drop stash@{0} :
+git stash list
+vim mithun.txt
+git stash
+git stash list
+git stash pop: It apply the latest stash and then immediately drop it from your stack.
+git stash pop stash@{1} : It apply the particular stash and then immediately drop it from your
+stack.
+---------------------------------------------------------------------------------------------------------------------
+git cherry-pick: Cherry picking in git means to choose a commit from one branch and apply it
+onto another.
+git log
+git branch
+git checkout m
